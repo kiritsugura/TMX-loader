@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="16" tileheight="16" nextobjectid="6">
+ <tileset firstgid="1" name="smw_tileset" tilewidth="16" tileheight="16" spacing="1" tilecount="460" columns="20">
+  <image source="smw_tileset.png" width="354" height="405"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt0jEKwCAQRFFzbU1rq94y3iEpHMFCsJIIifAfDCxb7cAaAwAAAAAAMM8f485tlrP1qLGaLyUrcbOkrkfQfCvPD+5606P/r6/vWtWjAPCVa50=
+  </data>
+ </layer>
+ <objectgroup name="collisions">
+  <object id="1" name="ground" type="collision" x="0" y="336" width="720" height="64"/>
+  <object id="3" name="pipe" type="collision" x="304" y="240" width="32" height="96"/>
+  <object id="4" name="ground" type="collision" x="752" y="336" width="48" height="64"/>
+ </objectgroup>
+ <layer name="Tile Layer 2" width="50" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztz7ENgDAMRNFjDYbIEGEH2CWp08LKuPAEIJQ4/JNebf+2SA0AAADAb2RJm/r/8dZuDQcdw6DjufWDez06kt+LvGKqi7zTXC7yZuy4AQYtKQk=
+  </data>
+ </layer>
+ <objectgroup name="spawns">
+  <object id="2" name="player" type="spawn" x="16" y="304" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="portals">
+  <object id="5" name="map02" type="portal" x="770" y="304" width="16" height="32"/>
+ </objectgroup>
+</map>

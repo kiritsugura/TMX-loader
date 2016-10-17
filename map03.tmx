@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="300" height="40" tilewidth="16" tileheight="16" nextobjectid="13">
+ <tileset firstgid="1" name="smw_tileset" tilewidth="16" tileheight="16" spacing="1" tilecount="460" columns="20">
+  <image source="smw_tileset.png" width="354" height="405"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="300" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEKwjAQBdD0CtWVN6gLb+AF1BP2jO7dqRG6UWJNbaRB3uJBoTPTQOCXpG9C6AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgMVdQwjnwS08v+vCZ6lZr3Om1gCkdNF+sC00a2xOTg1AirwCavDp/PbQRuvBau73GnkF/M7Y/dVU8qrOfYF/4TxYp5L7AnNtKvlnyqs6ySuW8C6XdpXkVcn7qzZjTk4NZfcFcqVy6RidosPEZ3369M3vq3FNNfddAgAAAAAAAAAAAN+4A+YqQcE=
+  </data>
+ </layer>
+ <objectgroup name="collisions">
+  <object id="1" name="floor" type="collision" x="0" y="496" width="4800" height="142"/>
+  <object id="3" name="block" type="collision" x="560" y="368" width="61" height="128"/>
+  <object id="4" name="block" type="collision" x="864" y="370" width="48" height="126"/>
+  <object id="5" name="block" type="collision" x="1008" y="370" width="48" height="128"/>
+  <object id="6" name="block" type="collision" x="2192" y="432" width="64" height="64"/>
+  <object id="10" name="block" type="collision" x="416" y="416" width="80" height="16"/>
+  <object id="12" name="block" type="collision" x="672" y="368" width="144" height="16"/>
+ </objectgroup>
+ <objectgroup name="spawns">
+  <object id="9" name="player" type="spawn" x="16" y="464" width="32" height="32"/>
+ </objectgroup>
+</map>
